@@ -56,10 +56,6 @@ public class SensorsManager implements SensorEventListener {
     @Override
     public void onSensorDataReady(String sensorName, double data) {
         System.out.println("Dati ricevuti dal sensore [" + sensorName + "]: " + data);
-
-        // enquee to send.. LoRa or Wifi????
-        //on fail store locally. TODO: db logics.
-        // use parallelism to speed up..
     }
 }
 
